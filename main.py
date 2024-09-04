@@ -85,6 +85,7 @@ def get_inv_data():
         '$lte': last_day
     }}))
 
+
     for gelir in gelirler:
         toplam_gelir = toplam_gelir + int(gelir["Amount"])
 
